@@ -33,6 +33,7 @@ skafold = { group = "io.oliverj.skafold", name = "skafold", version.ref = "skafo
 skafold-processor = { group = "io.oliverj.skafold", name = "processor", version.ref = "skafoldProcessor" }
 kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "serializationJson" }
 androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
